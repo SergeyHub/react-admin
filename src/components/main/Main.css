@@ -1,0 +1,205 @@
+main{
+    background-color: #f3f4f6;
+    grid-area: main;
+    overflow-y: auto ;
+}
+
+.main__container{
+    padding: 20px 35px;
+}
+
+.main__title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.main__title > img {
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.main__greeting > h1 {
+    color: #1c0557;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.main__greeting > p{
+    color: #1c0557;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 170px;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: rgb(208, 214, 218);
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px;
+}
+
+.card_inner{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     color: #1c0557;
+}
+
+.card_inner > span{
+    font-size: 27px;
+    color: #1c0557;
+}
+
+.card_inner > p{
+    color: #555555;
+}
+
+.charts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.charts__left{
+    padding: 25px;
+    border-radius: 5px;
+    background-color: rgb(208, 214, 218);
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px;
+}
+
+.charts__left__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1c0557;
+}
+
+.charts__left__title > div > h1{
+    font-size: 24px;
+    color: #1c0557;
+    margin-bottom: 5px;
+}
+
+.charts__left__title > div > p{
+    font-size: 15px;
+    color: #1c0557;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.charts__left__title > i{
+    font-size: 20px;
+    background-color: green;
+    color: #fff;
+    border-radius: 200px 0 200px 200px;
+    -moz-border-radius: 200px 0 200px 200px;
+    -webkit-border-radius: 200px 0 200px 200px;
+    border: 0 solid #4d11b4;
+    padding: 15px;
+}
+
+.charts__right{
+    padding: 25px;
+    border-radius: 5px;
+    background-color: rgb(208, 214, 218);
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px;
+}
+
+.charts__right__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1c0557;
+}
+
+.charts__right__title > div > h1{
+    font-size: 21px;
+    color: #1c0557;
+    margin-bottom: 5px;
+}
+
+.charts__right__title > div > p{
+    font-size: 15px;
+    color: #1c0557;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.charts__right__title > i{
+    font-size: 20px;
+    background-color: green;
+    color: #fff;
+    border-radius: 200px 0 200px 200px;
+    -moz-border-radius: 200px 0 200px 200px;
+    -webkit-border-radius: 200px 0 200px 200px;
+    border: 0 solid #4d11b4;
+    padding: 15px;
+}
+
+.charts__right__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card1{
+    background-color: #d1ecf1;
+    color: #1c0557;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.card2{
+    background-color: #eaf9f9;
+    color: #1c0557;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.card3{
+    background-color: #eaf9f9;
+    color: #1c0557;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.card4{
+    background-color: #d1ecf1;
+    color: #1c0557;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 855px){
+    .main__cards{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+    .charts{
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+    }
+}
