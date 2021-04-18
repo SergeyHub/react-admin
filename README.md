@@ -1,10 +1,25 @@
 # Getting Started with Create React App
 
+Clone the repo and cd into it
+
 npm install 
 
 npm start
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Deployment
+
+1. Insert into packege.json file next string
+
+"homepage": "https://domain-name.net/sub-domain-name/",
+
+  "name": "react-dashboard",
+  "https://domain-name.net/sub-domain-name/",
+  "version": "0.1.0",
+  "private": true,
+
+2. npm run build
 
 ## Available Scripts
 
