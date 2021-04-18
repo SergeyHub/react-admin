@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. Insert into packege.json file next string
 
-"homepage": "https://domain-name.net/sub-domain-name/",
+  "homepage": "https://domain-name.net/sub-domain-name/",
 
   "name": "react-dashboard",<b>
   "https://domain-name.net/sub-domain-name/",<br>
