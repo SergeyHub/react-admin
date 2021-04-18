@@ -14,10 +14,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 "homepage": "https://domain-name.net/sub-domain-name/",
 
-  "name": "react-dashboard",
-  "https://domain-name.net/sub-domain-name/",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-dashboard",<b>
+  "https://domain-name.net/sub-domain-name/",<br>
+  "version": "0.1.0",<br>
+  "private": true,<br>
 
 2. npm run build
 
